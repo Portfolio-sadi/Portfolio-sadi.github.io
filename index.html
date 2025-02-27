@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Animated LogIn Form</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background: linear-gradient(135deg, #74EBD5 0%, #9FACE6 100%);
+      font-family: Arial, sans-serif;
+    }
+
+    .box {
+      background: rgba(255, 255, 255, 0.2);
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      backdrop-filter: blur(10px);
+      text-align: center;
+      width: 300px;
+    }
+
+    .box h1 {
+      margin-bottom: 20px;
+      font-size: 24px;
+      color: #333;
+    }
+
+    .box input[type="text"],
+    .box input[type="password"] {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border: none;
+      border-radius: 5px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .box a {
+      display: inline-block;
+      text-decoration: none;
+      background: #6c63ff;
+      color: white;
+      padding: 10px;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    .box a:hover {
+      background: #574b90;
+    }
+  </style>
+</head>
+<body>
+  <form class="box">
+    <h1>LogIn</h1>
+    <input type="text" placeholder="Username">
+    <input type="password" placeholder="Password">
+    <a href="../Homepage/index.html">Submit</a>
+  </form>
+</body>
+</html>
